@@ -1,0 +1,50 @@
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.exe
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.deps.json
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.runtimeconfig.json
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.dll
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.pdb
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.StartupWindow.resources
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.GenerateResource.cache
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.AssemblyInfoInputs.cache
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.AssemblyInfo.cs
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.CoreCompileInputs.cache
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.dll
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\refint\DataExtractionEngine.dll
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.pdb
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.genruntimeconfig.cache
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\ref\DataExtractionEngine.dll
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\NeuralNetwork.dll
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\NeuralNetwork.pdb
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.AssemblyReference.cache
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Windows.FoundFiles.resources
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.CopyComplete
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\MillerInc.dll
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.dll.config
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Windows.LoadingWindow.resources
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.exe
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.dll.config
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.deps.json
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.runtimeconfig.json
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.dll
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\DataExtractionEngine.pdb
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\MillerInc.dll
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\NeuralNetwork.dll
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.AssemblyReference.cache
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.StartupWindow.resources
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Windows.FoundFiles.resources
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Windows.LoadingWindow.resources
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.GenerateResource.cache
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.AssemblyInfoInputs.cache
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.AssemblyInfo.cs
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.CoreCompileInputs.cache
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.CopyComplete
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.dll
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\refint\DataExtractionEngine.dll
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.pdb
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.genruntimeconfig.cache
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\ref\DataExtractionEngine.dll
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\MillerInc.ML.NeuralNetwork.dll
