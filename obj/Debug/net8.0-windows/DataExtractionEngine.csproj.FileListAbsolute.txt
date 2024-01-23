@@ -48,3 +48,6 @@ C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.genruntimeconfig.cache
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\ref\DataExtractionEngine.dll
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\MillerInc.ML.NeuralNetwork.dll
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Windows.DataViewer.resources
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.sourcelink.json
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Properties.Resources.resources

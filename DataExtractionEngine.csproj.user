@@ -4,6 +4,9 @@
     <Compile Update="StartupWindow.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Windows\DataViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Windows\FoundFiles.cs">
       <SubType>Form</SubType>
     </Compile>

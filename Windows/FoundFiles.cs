@@ -16,26 +16,26 @@ namespace DataExtractionEngine.Windows
         public FoundFiles()
         {
             InitializeComponent();
-            this.pathLabel.Text = $@"Root Path: {GlobalVars.RootDir}"; 
+            this.pathLabel.Text = $@"Root Path: {GlobalVars.RootDir}";
             this.files = GetMatchingFiles(GlobalVars.RootDir, GlobalVars.SearchPattern);
             //Output.WriteLine(Application.StartupPath + "\\output.txt", MillerInc.Convert.Lists.
             //ListToString.ListString(files, ",\n", "\n\n") + "\nCount: " + files.Count() + "\nRoot Path: " + 
             //GlobalVars.RootDir); 
-            this.UpdateFileDisplay(this.files); 
+            this.UpdateFileDisplay(this.files);
         }
 
-        private List<string> files = new();  
+        private List<string> files = new();
 
         public void UpdateFileDisplay(List<string> files)
         {
             List<string> fileNames = new();
             this.AllMatchinFiles.Items.Clear();
-            int count = 0; 
+            int count = 0;
             foreach (string file in files)
             {
                 this.AllMatchinFiles.Items.Add(file.Replace(GlobalVars.RootDir, ""));
                 this.AllMatchinFiles.SetItemChecked(count, true);
-                count++; 
+                count++;
             }
 
         }
@@ -59,19 +59,25 @@ namespace DataExtractionEngine.Windows
         {
             List<string> items = [];
 
-            foreach (int index in this.AllMatchinFiles.CheckedIndices) 
+            foreach (int index in this.AllMatchinFiles.CheckedIndices)
             {
                 items.Add(this.files[index]);
             }
 
-            return items; 
-        } 
+            return items;
+        }
 
         private void Continue_Click(object sender, EventArgs e)
         {
             GlobalVars.GenerationFiles = GetCheckedItems();
-            GlobalVars.TrainNetworkWindow = true; 
-            this.Dispose(); 
+            GlobalVars.TrainNetworkWindow = true;
+            this.Dispose();
+        }
+
+        private void GetData_Click(object sender, EventArgs e)
+        {
+            GlobalVars.GenerationFiles = GetCheckedItems();
+            GlobalVars.OpenDataViewer = true;
         }
     }
 }

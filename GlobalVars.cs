@@ -25,6 +25,8 @@ namespace DataExtractionEngine
 
         public static string SearchPattern { get; set; } = "";
 
+        public static bool OpenDataViewer { get; set; } = false; 
+
         public static bool OpenNewWindow { get; set; } = false;
 
         //public static Output Out { get; set; } = new(Application.StartupPath + @"\output.txt");
