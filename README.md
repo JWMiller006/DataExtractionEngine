@@ -1,5 +1,4 @@
 # Data Extraction Engine
------------------------
 ## Features 
   - Extract data from Generation Classes
   - Run data analysis on Generation Data
