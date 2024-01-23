@@ -9,3 +9,7 @@
 .vs/DataExtractionEngine/v17/.suo
 .vs/ProjectEvaluation/dataextractionengine.metadata.v7.bin
 .vs/ProjectEvaluation/dataextractionengine.projects.v7.bin
+*.vsidx
+*.vsidx
+.vs/DataExtractionEngine/v17/.wsuo
+./vs/*
