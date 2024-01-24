@@ -13,3 +13,5 @@
 *.vsidx
 .vs/DataExtractionEngine/v17/.wsuo
 ./vs/*
+bin/*
+obj/*
