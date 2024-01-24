@@ -64,11 +64,11 @@ namespace DataExtractionEngine.Windows
             double minFitness = 0f;
             int frameFoundBest = -1;
             double avgFitness = 0f;
-            int timesFound; 
+            int timesFound;
             foreach (string file in this.GenerationFiles)
             {
                 generation = new(file);
-                timesFound = 0; 
+                timesFound = 0;
                 foreach (var ind in generation.Individuals)
                 {
                     if (ind.Fitness > maxFitness)
@@ -97,7 +97,7 @@ namespace DataExtractionEngine.Windows
                     }
                     if (ind.Found)
                     {
-                        timesFound++; 
+                        timesFound++;
                     }
                 }
                 lines[count] = count.ToString().PadRight(5) + Path.GetFileName(file).PadRight(20) + maxFitness.ToString().PadRight(30) +
@@ -210,6 +210,12 @@ namespace DataExtractionEngine.Windows
                 }
             }
             else File.WriteAllLines(FileName, this.textOutput.Lines);
+        }
+
+        private void printPreviewToolStripButton_Click(object sender, EventArgs e)
+        {
+            GlobalVars.OpenNewWindow = true;
+            this.Dispose(); 
         }
     }
 }

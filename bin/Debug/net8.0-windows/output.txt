@@ -61,3 +61,12 @@ First thread finished, 0
 Variable Count :: 0
 Starting up training
 First thread finished, 0
+Variable Count :: 0
+Starting up training
+First thread finished, 0
+Variable Count :: 0
+Starting up training
+First thread finished, 0
+Variable Count :: 0
+Starting up training
+First thread finished, 0

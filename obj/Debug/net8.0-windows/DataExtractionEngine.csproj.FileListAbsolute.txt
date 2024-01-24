@@ -15,7 +15,6 @@ D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8
 D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.genruntimeconfig.cache
 D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\ref\DataExtractionEngine.dll
 D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\NeuralNetwork.dll
-D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\NeuralNetwork.pdb
 D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.AssemblyReference.cache
 D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Windows.FoundFiles.resources
 D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.CopyComplete
@@ -51,3 +50,7 @@ C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Windows.DataViewer.resources
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.sourcelink.json
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Properties.Resources.resources
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8.0-windows\MillerInc.ML.NeuralNetwork.dll
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Properties.Resources.resources
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Windows.DataViewer.resources
+D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.sourcelink.json

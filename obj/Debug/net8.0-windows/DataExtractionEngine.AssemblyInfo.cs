@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataExtractionEngine")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df9d055ff1fd1fafdb6f32f749f003f674e65d8b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c12c44fd0e4404836aee3e080631688b49f391f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataExtractionEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataExtractionEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

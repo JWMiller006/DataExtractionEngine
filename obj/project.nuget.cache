@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WvqQE3oDc8PAJw4DrBDm9aBHgDzLWM7Ae66Bp9GPk9TZJe1+00T9oh3fwc0cdL4xeBYVDyM+BmR+TjCztsSc2A==",
+  "dgSpecHash": "4SVVxrAcHOnTUMp27m/EtkqO2yqsFrW7E0Xi8c5KsMLeJ/h02q3CfyfKmJhoNrtJXezgR5f6Dcg505rtxGiNtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jwmil\\Documents\\Programs\\DataExtractionEngine\\DataExtractionEngine.csproj",
+  "projectFilePath": "D:\\School\\2023-2024 Senior Year\\RP\\Resources\\DataExtractionEngine\\DataExtractionEngine.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jwmil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\jwmil\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",

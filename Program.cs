@@ -36,7 +36,8 @@ namespace DataExtractionEngine
                             try
                             {
                                 GlobalVars.Loader = new(GlobalVars.GenerationFiles, GlobalVars.NeuralNetwork);
-                                Application.Run(GlobalVars.Loader);
+                                GlobalVars.Loader.Show(); 
+                                // Application.Run(GlobalVars.Loader); 
                             }
                             catch (ObjectDisposedException)
                             {
