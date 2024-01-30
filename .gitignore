@@ -26,3 +26,14 @@ obj/Debug/net8.0-windows/DataExtractionEngine.AssemblyInfoInputs.cache
 obj/Debug/net8.0-windows/DataExtractionEngine.assets.cache
 obj/Debug/net8.0-windows/DataExtractionEngine.csproj.AssemblyReference.cache
 obj/Debug/net8.0-windows/DataExtractionEngine.GeneratedMSBuildEditorConfig.editorconfig
+bin/Debug/net8.0-windows/count.txt
+bin/Debug/net8.0-windows/output.txt
+bin/Debug/net8.0-windows/output0.txt
+obj/Debug/net8.0-windows/DataExtractionEngine.AssemblyInfo.cs
+obj/Debug/net8.0-windows/DataExtractionEngine.AssemblyInfoInputs.cache
+obj/Debug/net8.0-windows/DataExtractionEngine.assets.cache
+obj/Debug/net8.0-windows/DataExtractionEngine.csproj.AssemblyReference.cache
+obj/Debug/net8.0-windows/DataExtractionEngine.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net8.0-windows/DataExtractionEngine.sourcelink.json
+Package/DataExtractionEngine.1.0.0.nupkg
+Package/DataExtractionEngine.1.0.0.snupkg
