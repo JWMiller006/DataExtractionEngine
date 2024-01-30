@@ -15,7 +15,7 @@ namespace DataExtractionEngine
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             GlobalVars.WindowsList = new(); 
-            Thread CheckerThread = new(() =>
+            Thread CheckerThread = new(async () =>
             {
                 while (GlobalVars.ApplicationRunning)
                 {
@@ -87,6 +87,8 @@ namespace DataExtractionEngine
                         GlobalVars.WindowsList[^1].Start();
                         GlobalVars.OpenDataViewer = false;
                     }
+                    
+                    await Task.Delay(1500);
                 }
             });
             CheckerThread.SetApartmentState(ApartmentState.STA);
