@@ -10,8 +10,5 @@
     <Compile Update="Windows\FoundFiles.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Windows\LoadingWindow.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

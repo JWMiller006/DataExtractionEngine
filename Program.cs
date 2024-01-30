@@ -29,7 +29,7 @@ namespace DataExtractionEngine
                         GlobalVars.WindowsList[^1].Start();
                         GlobalVars.OpenNewWindow = false; 
                     }
-                    if (GlobalVars.TrainNetworkWindow)
+                    /*if (GlobalVars.TrainNetworkWindow)
                     {
                         GlobalVars.WindowsList.Add(new Thread(() =>
                         {
@@ -75,7 +75,7 @@ namespace DataExtractionEngine
                         GlobalVars.WindowsList[^1].SetApartmentState(ApartmentState.STA);
                         GlobalVars.WindowsList[^1].Start();
                         GlobalVars.TrainNetworkWindow = false;
-                    }
+                    }*/
                     if (GlobalVars.OpenDataViewer)
                     {
                         

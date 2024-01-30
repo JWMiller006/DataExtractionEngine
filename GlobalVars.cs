@@ -39,7 +39,7 @@ namespace DataExtractionEngine
 
         public static volatile List<Thread> WindowsList = [];
 
-        public static volatile LoadingWindow Loader = new(); 
+        //public static volatile LoadingWindow Loader = new(); 
 
         public static Network.Builder Builder { get; set; } = new();
 
