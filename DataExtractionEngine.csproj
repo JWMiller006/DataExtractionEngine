@@ -7,6 +7,14 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>dataIcon.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>MillerInc.ML.GenerationDataExtraction</Title>
+    <Authors>J Miller</Authors>
+    <Copyright>J Miller 2024</Copyright>
+    <PackageOutputPath>Package\$(VersionPrefix)\</PackageOutputPath>
+    <NeutralLanguage>en</NeutralLanguage>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>

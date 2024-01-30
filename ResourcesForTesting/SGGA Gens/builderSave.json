@@ -1,1 +1,0 @@
-{"InputNeurons":6,"NeuronLayers":[5,4,3],"IsBiasNeurons":true,"LearningRate":0.1,"MomentumRate":0.1,"WeightsInitializer":3,"BiasInitializer":0,"ActivationFunc":0,"LossFunc":0,"LearningOptimizing":0}
