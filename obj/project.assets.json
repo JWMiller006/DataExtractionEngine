@@ -3061,11 +3061,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jwmil\\Documents\\Programs\\DataExtractionEngine\\DataExtractionEngine.csproj",
+      "projectUniqueName": "D:\\School\\2023-2024 Senior Year\\RP\\Resources\\DataExtractionEngine\\DataExtractionEngine.csproj",
       "projectName": "DataExtractionEngine",
-      "projectPath": "C:\\Users\\jwmil\\Documents\\Programs\\DataExtractionEngine\\DataExtractionEngine.csproj",
+      "projectPath": "D:\\School\\2023-2024 Senior Year\\RP\\Resources\\DataExtractionEngine\\DataExtractionEngine.csproj",
       "packagesPath": "C:\\Users\\jwmil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jwmil\\Documents\\Programs\\DataExtractionEngine\\obj\\",
+      "outputPath": "D:\\School\\2023-2024 Senior Year\\RP\\Resources\\DataExtractionEngine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3130,7 +3130,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

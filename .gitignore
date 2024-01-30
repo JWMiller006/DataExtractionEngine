@@ -13,6 +13,5 @@
 *.vsidx
 .vs/DataExtractionEngine/v17/.wsuo
 ./vs/*
-obj/Debug/net8.0-windows/DataExtractionEngine.AssemblyInfo.cs
-obj/Debug/net8.0-windows/DataExtractionEngine.AssemblyInfoInputs.cache
-obj/Debug/net8.0-windows/DataExtractionEngine.csproj.AssemblyReference.cache
+bin/*
+obj/*
