@@ -34,7 +34,6 @@ C:\Users\jwmil\Documents\Programs\DataExtractionEngine\bin\Debug\net8.0-windows\
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.AssemblyReference.cache
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.StartupWindow.resources
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Windows.FoundFiles.resources
-C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Windows.LoadingWindow.resources
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.GenerateResource.cache
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.AssemblyInfoInputs.cache

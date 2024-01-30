@@ -2,7 +2,7 @@
 ## Features 
   - Extract data from Generation Classes
   - Run data analysis on Generation Data
-  - Train a neural network
+  - Train a neural network (depreciated)
   - Compile Statistics
   - and more
 

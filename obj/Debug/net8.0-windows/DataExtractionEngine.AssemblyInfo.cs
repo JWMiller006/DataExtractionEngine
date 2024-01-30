@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DataExtractionEngine")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("J Miller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("J Miller 2024")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c12c44fd0e4404836aee3e080631688b49f391f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66b8fa666d6fd23a8802f1e9738128416ef15034")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataExtractionEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataExtractionEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Resources.NeutralResourcesLanguageAttribute("en")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
