@@ -15,3 +15,8 @@
 ./vs/*
 bin/*
 obj/*
+obj/Debug/net8.0-windows/DataExtractionEngine.AssemblyInfo.cs
+obj/Debug/net8.0-windows/DataExtractionEngine.AssemblyInfoInputs.cache
+obj/Debug/net8.0-windows/DataExtractionEngine.assets.cache
+obj/Debug/net8.0-windows/DataExtractionEngine.csproj.AssemblyReference.cache
+obj/Debug/net8.0-windows/DataExtractionEngine.GeneratedMSBuildEditorConfig.editorconfig
