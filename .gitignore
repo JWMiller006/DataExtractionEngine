@@ -37,3 +37,5 @@ obj/Debug/net8.0-windows/DataExtractionEngine.GeneratedMSBuildEditorConfig.edito
 obj/Debug/net8.0-windows/DataExtractionEngine.sourcelink.json
 Package/DataExtractionEngine.1.0.0.nupkg
 Package/DataExtractionEngine.1.0.0.snupkg
+/bin/*
+/obj/*
