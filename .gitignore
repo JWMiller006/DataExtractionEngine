@@ -13,7 +13,6 @@
 *.vsidx
 .vs/DataExtractionEngine/v17/.wsuo
 ./vs/*
-bin/*
 obj/*
 obj/Debug/net8.0-windows/DataExtractionEngine.AssemblyInfo.cs
 obj/Debug/net8.0-windows/DataExtractionEngine.AssemblyInfoInputs.cache
@@ -37,11 +36,6 @@ obj/Debug/net8.0-windows/DataExtractionEngine.GeneratedMSBuildEditorConfig.edito
 obj/Debug/net8.0-windows/DataExtractionEngine.sourcelink.json
 Package/DataExtractionEngine.1.0.0.nupkg
 Package/DataExtractionEngine.1.0.0.snupkg
-/bin/*
-/obj/*
-bin/Debug/net8.0-windows/DataExtractionEngine.dll
-bin/Debug/net8.0-windows/DataExtractionEngine.exe
-bin/Debug/net8.0-windows/DataExtractionEngine.pdb
 obj/Debug/net8.0-windows/apphost.exe
 obj/Debug/net8.0-windows/DataExtractionEngine.AssemblyInfo.cs
 obj/Debug/net8.0-windows/DataExtractionEngine.AssemblyInfoInputs.cache
@@ -50,3 +44,5 @@ obj/Debug/net8.0-windows/DataExtractionEngine.pdb
 obj/Debug/net8.0-windows/DataExtractionEngine.sourcelink.json
 obj/Debug/net8.0-windows/ref/DataExtractionEngine.dll
 obj/Debug/net8.0-windows/refint/DataExtractionEngine.dll
+
+.fake
