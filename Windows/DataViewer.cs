@@ -1,4 +1,5 @@
-﻿using NeuralNetwork.Genetic;
+﻿using DataExtractionEngine.Backend;
+using NeuralNetwork.Genetic;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,6 +28,80 @@ namespace DataExtractionEngine.Windows
             this.GenerationFiles = generationFiles;
             SetupTextDisplay();
         }
+
+        public DataViewer(List<string> generatedFiles, bool tracking)
+        {
+            if (tracking)
+            {
+                InitializeComponent();
+                this.GenerationFiles = generatedFiles;
+                SetupTextDisplayPart2();
+            }
+        }
+
+        private void SetupTextDisplayPart2()
+        {
+            this.textOutput.Lines = [];
+            /* Lines format 
+             * File Name [15] Lowest Frames [15]   Average Fitness[20] Worst Fitness [20]  Best Frame [20]  
+             * gen0000        0.1585666652666666  0.1585666652666666  0.1585666652666666  0.1585666652666666
+             */
+            string[] lines = new string[2];
+            int count = 1;
+            lines[0] = "#".PadRight(5) + "File Name".PadRight(40) + "Lowest Frames".PadRight(17) + "Average Frames".PadRight(25) +
+                "Most Frames".PadRight(17) + "Generational Frames".PadRight(25) + "Tracking Frames".PadRight(17);
+            int maxFrames = -1;
+            int minFrames = -1;
+            double avgFrames = -1;
+            double avgGenerationalFrames = -1;
+            double avgTrackingFrames = -1;
+            TrackingInstance instance = new(); 
+            foreach (string file in this.GenerationFiles)
+            {
+                instance = new(file);
+                if (maxFrames == -1 || maxFrames < instance.TrackingFrames)
+                {
+                    maxFrames = instance.TrackingFrames;
+                }
+                if (minFrames == -1 || minFrames > instance.TrackingFrames)
+                {
+                    minFrames = instance.TrackingFrames;
+                }
+                if (avgFrames == -1)
+                {
+                    avgFrames = instance.TrackingFrames + instance.GenerationalFrames;
+                }
+                else
+                {
+                    avgFrames = (avgFrames + instance.TrackingFrames + instance.GenerationalFrames) / 2;
+                }
+                if (avgGenerationalFrames == -1)
+                {
+                    avgGenerationalFrames = instance.GenerationalFrames;
+                }
+                else
+                {
+                    avgGenerationalFrames = (avgGenerationalFrames + instance.GenerationalFrames) / 2;
+                }
+                if (avgTrackingFrames == -1)
+                {
+                    avgTrackingFrames = instance.TrackingFrames;
+                }
+                else
+                {
+                    avgTrackingFrames = (avgTrackingFrames + instance.TrackingFrames) / 2;
+                }
+
+
+            }
+            lines[count] = count.ToString().PadRight(5) + Path.GetFileName(this.GenerationFiles.First()).PadRight(40) + minFrames.ToString().PadRight(17) +
+                    avgFrames.ToString().PadRight(25) + maxFrames.ToString().PadRight(17) +
+                    avgGenerationalFrames.ToString().PadRight(25) + avgTrackingFrames.ToString().PadRight(17);
+
+            this.textOutput.Lines = lines;
+            return;
+        }
+    
 
         private void ShowNewForm(object sender, EventArgs e)
         {

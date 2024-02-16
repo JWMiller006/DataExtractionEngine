@@ -39,7 +39,6 @@ C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.AssemblyInfoInputs.cache
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.AssemblyInfo.cs
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.CoreCompileInputs.cache
-C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.csproj.CopyComplete
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.dll
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\refint\DataExtractionEngine.dll
 C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.pdb
@@ -53,3 +52,4 @@ D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\bin\Debug\net8
 D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Properties.Resources.resources
 D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.Windows.DataViewer.resources
 D:\School\2023-2024 Senior Year\RP\Resources\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtractionEngine.sourcelink.json
+C:\Users\jwmil\Documents\Programs\DataExtractionEngine\obj\Debug\net8.0-windows\DataExtr.3E826046.Up2Date

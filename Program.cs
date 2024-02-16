@@ -87,7 +87,17 @@ namespace DataExtractionEngine
                         GlobalVars.WindowsList[^1].Start();
                         GlobalVars.OpenDataViewer = false;
                     }
-                    
+                    if (GlobalVars.OpenTracker)
+                    {
+                        GlobalVars.WindowsList.Add(new Thread(() =>
+                        {
+                            Application.Run(new DataViewer(GlobalVars.GenerationFiles, true)) ;
+                        }));
+                        GlobalVars.WindowsList[^1].SetApartmentState(ApartmentState.STA);
+                        GlobalVars.WindowsList[^1].Start();
+                        GlobalVars.OpenTracker = false;
+                    }
+
                     await Task.Delay(1500);
                 }
             });

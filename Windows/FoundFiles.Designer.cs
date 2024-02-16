@@ -33,6 +33,7 @@
             Continue = new Button();
             pathLabel = new Label();
             GetData = new Button();
+            trackingExtract = new Button();
             SuspendLayout();
             // 
             // AllMatchinFiles
@@ -79,11 +80,22 @@
             GetData.UseVisualStyleBackColor = true;
             GetData.Click += GetData_Click;
             // 
+            // trackingExtract
+            // 
+            trackingExtract.Location = new Point(531, 280);
+            trackingExtract.Name = "trackingExtract";
+            trackingExtract.Size = new Size(131, 35);
+            trackingExtract.TabIndex = 4;
+            trackingExtract.Text = "Extract Tracking Data";
+            trackingExtract.UseVisualStyleBackColor = true;
+            trackingExtract.Click += trackingExtract_Click;
+            // 
             // FoundFiles
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(700, 338);
+            Controls.Add(trackingExtract);
             Controls.Add(GetData);
             Controls.Add(pathLabel);
             Controls.Add(Continue);
@@ -102,5 +114,6 @@
         private Button Continue;
         private Label pathLabel;
         private Button GetData;
+        private Button trackingExtract;
     }
 }

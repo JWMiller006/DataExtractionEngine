@@ -43,6 +43,9 @@ namespace DataExtractionEngine
 
         public static Network.Builder Builder { get; set; } = new();
 
+
+        public static volatile bool OpenTracker = false; 
+
         public static Network BuildDefaultNetwork()
         {
             Network.Builder builder = new();

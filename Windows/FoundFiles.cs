@@ -79,5 +79,11 @@ namespace DataExtractionEngine.Windows
             GlobalVars.GenerationFiles = GetCheckedItems();
             GlobalVars.OpenDataViewer = true;
         }
+
+        private void trackingExtract_Click(object sender, EventArgs e)
+        {
+            GlobalVars.GenerationFiles = GetCheckedItems();
+            GlobalVars.OpenTracker = true;
+        }
     }
 }

@@ -1,0 +1,3 @@
+Final distance: (0.18, -0.22, -0.68)
+Genetic Frames: 278
+Tracked Frames: 251
