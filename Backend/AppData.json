@@ -1,0 +1,6 @@
+ { 
+  "AppName": "DataExtractionEngine", 
+  "AppVersion": "1.0.1.2", 
+  "AppDescription": "Extract data from output files for a specified project", 
+  "AppPublisher": "MillerInc" 
+} 
