@@ -59,13 +59,13 @@ namespace DataExtractionEngine.Windows
             foreach (string file in this.GenerationFiles)
             {
                 instance = new(file);
-                if (maxFrames == -1 || maxFrames < instance.TrackingFrames)
+                if (maxFrames == -1 || maxFrames < instance.GenerationalFrames)
                 {
-                    maxFrames = instance.TrackingFrames;
+                    maxFrames = instance.GenerationalFrames;
                 }
-                if (minFrames == -1 || minFrames > instance.TrackingFrames)
+                if (minFrames == -1 || minFrames > instance.GenerationalFrames)
                 {
-                    minFrames = instance.TrackingFrames;
+                    minFrames = instance.GenerationalFrames;
                 }
                 if (avgFrames == -1)
                 {
