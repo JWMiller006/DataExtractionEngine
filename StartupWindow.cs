@@ -5,7 +5,7 @@ namespace DataExtractionEngine
         public StartupWindow()
         {
             InitializeComponent();
-            this.TrainNeuralNetwork.Checked = false; 
+            this.TrainNeuralNetwork.Checked = false;
             UpdateGUI();
         }
 
@@ -62,7 +62,7 @@ namespace DataExtractionEngine
 
         private void chooseNetworkFile_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            this.NeuralNetworkPath.Text = chooseNetworkFile.FileName; 
+            this.NeuralNetworkPath.Text = chooseNetworkFile.FileName;
         }
 
         private void TrainNeuralNetwork_CheckedChanged(object sender, EventArgs e)
@@ -79,9 +79,36 @@ namespace DataExtractionEngine
                 GlobalVars.NeuralNetworkPath = this.NeuralNetworkPath.Text;
                 GlobalVars.NeuralNetwork = new(GlobalVars.NeuralNetworkPath);
             }
-            GlobalVars.TrainNetwork = this.TrainNeuralNetwork.Checked; 
+            GlobalVars.TrainNetwork = this.TrainNeuralNetwork.Checked;
             GlobalVars.SearchPattern = this.fileName.Text.Replace('%', '*') + "." + this.FileExt.Text;
-            GlobalVars.OpenNewWindow = true;   
+            GlobalVars.OpenNewWindow = true;
+        }
+
+        private void GenerationTab_Click(object sender, EventArgs e)
+        {
+            FileExt.Text = "json";
+            fileName.Text = "gen%";
+        }
+
+        private void tabContoller_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void trackingTab_Click(object sender, EventArgs e)
+        {
+            FileExt.Text = "txt";
+            fileName.Text = "%.%.%.FinishedFile.%";
+        }
+
+        private void trackingTab_MouseEnter(object sender, EventArgs e)
+        {
+            trackingTab_Click(sender, e);
+        }
+
+        private void GenerationTab_MouseEnter(object sender, EventArgs e)
+        {
+            GenerationTab_Click(sender, e);
         }
     }
 }

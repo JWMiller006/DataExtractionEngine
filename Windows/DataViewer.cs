@@ -48,7 +48,7 @@ namespace DataExtractionEngine.Windows
              */
             string[] lines = new string[2];
             int count = 1;
-            lines[0] = "#".PadRight(5) + "File Name".PadRight(40) + "Lowest Frames".PadRight(17) + "Average Frames".PadRight(25) +
+            lines[0] = "#".PadRight(5) + "Generation Type".PadRight(20) + "Lowest Frames".PadRight(17) + "Average Frames".PadRight(30) +
                 "Most Frames".PadRight(17) + "Avg Generational Frames".PadRight(30) + "Tracking Frames".PadRight(17) + "Avg Distance".PadRight(17);
             int maxFrames = -1;
             int minFrames = -1;
@@ -102,9 +102,12 @@ namespace DataExtractionEngine.Windows
                 }
 
             }
-            lines[count] = count.ToString().PadRight(5) + Path.GetFileName(this.GenerationFiles.First()).PadRight(40) + minFrames.ToString().PadRight(17) +
+            string fileName = Path.GetFileName(this.GenerationFiles.First());
+            fileName = fileName[..^4];
+            fileName = fileName[(fileName.LastIndexOf('.') + 1)..];
+            lines[count] = count.ToString().PadRight(5) + fileName.PadRight(20) + minFrames.ToString().PadRight(17) +
                     avgFrames.ToString().PadRight(30) + maxFrames.ToString().PadRight(17) +
-                    avgGenerationalFrames.ToString().PadRight(25) + avgTrackingFrames.ToString().PadRight(17) + avgDist.ToString().PadRight;
+                    avgGenerationalFrames.ToString().PadRight(30) + avgTrackingFrames.ToString().PadRight(17) + avgDist.ToString().PadRight(17);
 
             this.textOutput.Lines = lines;
             return;

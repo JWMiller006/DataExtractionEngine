@@ -96,7 +96,7 @@
             menuStrip.MdiWindowListItem = windowsMenu;
             menuStrip.Name = "menuStrip";
             menuStrip.Padding = new Padding(7, 2, 0, 2);
-            menuStrip.Size = new Size(1340, 24);
+            menuStrip.Size = new Size(1384, 24);
             menuStrip.TabIndex = 0;
             menuStrip.Text = "MenuStrip";
             // 
@@ -398,7 +398,7 @@
             toolStrip.Items.AddRange(new ToolStripItem[] { newToolStripButton, openToolStripButton, saveToolStripButton, toolStripSeparator1, printToolStripButton, printPreviewToolStripButton, toolStripSeparator2, helpToolStripButton });
             toolStrip.Location = new Point(0, 24);
             toolStrip.Name = "toolStrip";
-            toolStrip.Size = new Size(1340, 27);
+            toolStrip.Size = new Size(1384, 27);
             toolStrip.TabIndex = 1;
             toolStrip.Text = "ToolStrip";
             // 
@@ -474,10 +474,10 @@
             // 
             statusStrip.ImageScalingSize = new Size(20, 20);
             statusStrip.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel });
-            statusStrip.Location = new Point(0, 501);
+            statusStrip.Location = new Point(0, 489);
             statusStrip.Name = "statusStrip";
             statusStrip.Padding = new Padding(1, 0, 16, 0);
-            statusStrip.Size = new Size(1340, 22);
+            statusStrip.Size = new Size(1384, 22);
             statusStrip.TabIndex = 2;
             statusStrip.Text = "StatusStrip";
             // 
@@ -495,7 +495,7 @@
             textOutput.ForeColor = SystemColors.Info;
             textOutput.Location = new Point(0, 51);
             textOutput.Name = "textOutput";
-            textOutput.Size = new Size(1340, 450);
+            textOutput.Size = new Size(1384, 438);
             textOutput.TabIndex = 4;
             textOutput.Text = "this is where the data appears after it has been loaded\nwait a moment\n\nif nothing has appeared yet, close this window and restart it";
             // 
@@ -503,7 +503,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1340, 523);
+            ClientSize = new Size(1384, 511);
             Controls.Add(textOutput);
             Controls.Add(statusStrip);
             Controls.Add(toolStrip);
@@ -513,7 +513,7 @@
             MainMenuStrip = menuStrip;
             Margin = new Padding(4, 3, 4, 3);
             Name = "DataViewer";
-            Text = "DataViewer";
+            Text = "Data Viewer";
             menuStrip.ResumeLayout(false);
             menuStrip.PerformLayout();
             toolStrip.ResumeLayout(false);

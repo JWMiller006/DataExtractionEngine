@@ -126,6 +126,19 @@
   <metadata name="chooseNetworkFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>401, 21</value>
   </metadata>
+  <data name="genDataAnalysisLbl.Text" xml:space="preserve">
+    <value>While using this mode, the data analyzed is specifically meant to be using .json files that 
+are compressed and encoded generational files. This program will then use those files to 
+extract the wanted data from the chosen files and display the resuts in the data viewer. </value>
+  </data>
+  <data name="trackDataAnalysisLbl.Text" xml:space="preserve">
+    <value>While in this mode, the engine is taking stored data from .txt files,
+analyizing it for trends and displaying the resulting output on the 
+data viewer window. The txt files are supposed to be files that have
+the basic data as to the number of frames the agent was tracking 
+the target, the number of frames under control of the generational
+system, and the final distance (in vector form) from the object. </value>
+  </data>
   <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
