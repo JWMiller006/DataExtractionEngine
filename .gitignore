@@ -46,3 +46,5 @@ obj/Debug/net8.0-windows/ref/DataExtractionEngine.dll
 obj/Debug/net8.0-windows/refint/DataExtractionEngine.dll
 
 .fake
+
+.vs/*
