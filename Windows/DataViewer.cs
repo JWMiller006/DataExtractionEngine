@@ -49,13 +49,14 @@ namespace DataExtractionEngine.Windows
             string[] lines = new string[2];
             int count = 1;
             lines[0] = "#".PadRight(5) + "File Name".PadRight(40) + "Lowest Frames".PadRight(17) + "Average Frames".PadRight(25) +
-                "Most Frames".PadRight(17) + "Generational Frames".PadRight(25) + "Tracking Frames".PadRight(17);
+                "Most Frames".PadRight(17) + "Avg Generational Frames".PadRight(30) + "Tracking Frames".PadRight(17) + "Avg Distance".PadRight(17);
             int maxFrames = -1;
             int minFrames = -1;
             double avgFrames = -1;
             double avgGenerationalFrames = -1;
             double avgTrackingFrames = -1;
-            TrackingInstance instance = new(); 
+            double avgDist = -1;
+            TrackingInstance instance; 
             foreach (string file in this.GenerationFiles)
             {
                 instance = new(file);
@@ -91,12 +92,19 @@ namespace DataExtractionEngine.Windows
                 {
                     avgTrackingFrames = (avgTrackingFrames + instance.TrackingFrames) / 2;
                 }
-
+                if (avgDist == -1)
+                {
+                    avgDist = instance.Distance.Length();
+                }
+                else
+                {
+                    avgDist = (avgDist + instance.Distance.Length()) / 2;
+                }
 
             }
             lines[count] = count.ToString().PadRight(5) + Path.GetFileName(this.GenerationFiles.First()).PadRight(40) + minFrames.ToString().PadRight(17) +
-                    avgFrames.ToString().PadRight(25) + maxFrames.ToString().PadRight(17) +
-                    avgGenerationalFrames.ToString().PadRight(25) + avgTrackingFrames.ToString().PadRight(17);
+                    avgFrames.ToString().PadRight(30) + maxFrames.ToString().PadRight(17) +
+                    avgGenerationalFrames.ToString().PadRight(25) + avgTrackingFrames.ToString().PadRight(17) + avgDist.ToString().PadRight;
 
             this.textOutput.Lines = lines;
             return;
