@@ -83,6 +83,7 @@
             toolStripStatusLabel = new ToolStripStatusLabel();
             toolTip = new ToolTip(components);
             textOutput = new RichTextBox();
+            viewRawDataToolStripMenuItem = new ToolStripMenuItem();
             menuStrip.SuspendLayout();
             toolStrip.SuspendLayout();
             statusStrip.SuspendLayout();
@@ -291,7 +292,7 @@
             // 
             // toolsMenu
             // 
-            toolsMenu.DropDownItems.AddRange(new ToolStripItem[] { optionsToolStripMenuItem });
+            toolsMenu.DropDownItems.AddRange(new ToolStripItem[] { optionsToolStripMenuItem, viewRawDataToolStripMenuItem });
             toolsMenu.Name = "toolsMenu";
             toolsMenu.Size = new Size(46, 20);
             toolsMenu.Text = "&Tools";
@@ -299,7 +300,7 @@
             // optionsToolStripMenuItem
             // 
             optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            optionsToolStripMenuItem.Size = new Size(116, 22);
+            optionsToolStripMenuItem.Size = new Size(180, 22);
             optionsToolStripMenuItem.Text = "&Options";
             // 
             // windowsMenu
@@ -312,42 +313,42 @@
             // newWindowToolStripMenuItem
             // 
             newWindowToolStripMenuItem.Name = "newWindowToolStripMenuItem";
-            newWindowToolStripMenuItem.Size = new Size(150, 22);
+            newWindowToolStripMenuItem.Size = new Size(180, 22);
             newWindowToolStripMenuItem.Text = "&New Window";
             newWindowToolStripMenuItem.Click += ShowNewForm;
             // 
             // cascadeToolStripMenuItem
             // 
             cascadeToolStripMenuItem.Name = "cascadeToolStripMenuItem";
-            cascadeToolStripMenuItem.Size = new Size(150, 22);
+            cascadeToolStripMenuItem.Size = new Size(180, 22);
             cascadeToolStripMenuItem.Text = "&Cascade";
             cascadeToolStripMenuItem.Click += CascadeToolStripMenuItem_Click;
             // 
             // tileVerticalToolStripMenuItem
             // 
             tileVerticalToolStripMenuItem.Name = "tileVerticalToolStripMenuItem";
-            tileVerticalToolStripMenuItem.Size = new Size(150, 22);
+            tileVerticalToolStripMenuItem.Size = new Size(180, 22);
             tileVerticalToolStripMenuItem.Text = "Tile &Vertical";
             tileVerticalToolStripMenuItem.Click += TileVerticalToolStripMenuItem_Click;
             // 
             // tileHorizontalToolStripMenuItem
             // 
             tileHorizontalToolStripMenuItem.Name = "tileHorizontalToolStripMenuItem";
-            tileHorizontalToolStripMenuItem.Size = new Size(150, 22);
+            tileHorizontalToolStripMenuItem.Size = new Size(180, 22);
             tileHorizontalToolStripMenuItem.Text = "Tile &Horizontal";
             tileHorizontalToolStripMenuItem.Click += TileHorizontalToolStripMenuItem_Click;
             // 
             // closeAllToolStripMenuItem
             // 
             closeAllToolStripMenuItem.Name = "closeAllToolStripMenuItem";
-            closeAllToolStripMenuItem.Size = new Size(150, 22);
+            closeAllToolStripMenuItem.Size = new Size(180, 22);
             closeAllToolStripMenuItem.Text = "C&lose All";
             closeAllToolStripMenuItem.Click += CloseAllToolStripMenuItem_Click;
             // 
             // arrangeIconsToolStripMenuItem
             // 
             arrangeIconsToolStripMenuItem.Name = "arrangeIconsToolStripMenuItem";
-            arrangeIconsToolStripMenuItem.Size = new Size(150, 22);
+            arrangeIconsToolStripMenuItem.Size = new Size(180, 22);
             arrangeIconsToolStripMenuItem.Text = "&Arrange Icons";
             arrangeIconsToolStripMenuItem.Click += ArrangeIconsToolStripMenuItem_Click;
             // 
@@ -499,6 +500,13 @@
             textOutput.TabIndex = 4;
             textOutput.Text = "this is where the data appears after it has been loaded\nwait a moment\n\nif nothing has appeared yet, close this window and restart it";
             // 
+            // viewRawDataToolStripMenuItem
+            // 
+            viewRawDataToolStripMenuItem.Name = "viewRawDataToolStripMenuItem";
+            viewRawDataToolStripMenuItem.Size = new Size(180, 22);
+            viewRawDataToolStripMenuItem.Text = "View Raw Data";
+            viewRawDataToolStripMenuItem.Click += viewRawDataToolStripMenuItem_Click;
+            // 
             // DataViewer
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -579,6 +587,7 @@
         private System.Windows.Forms.ToolStripButton helpToolStripButton;
         private System.Windows.Forms.ToolTip toolTip;
         private RichTextBox textOutput;
+        private ToolStripMenuItem viewRawDataToolStripMenuItem;
     }
 }
 

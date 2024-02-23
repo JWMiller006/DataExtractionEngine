@@ -36,8 +36,11 @@ namespace DataExtractionEngine.Windows
                 InitializeComponent();
                 this.GenerationFiles = generatedFiles;
                 SetupTextDisplayPart2();
+                TrackerVersion = true; // We are displaying tracking data
             }
         }
+
+        private bool TrackerVersion = false; // If true, then we are displaying tracking data
 
         private void SetupTextDisplayPart2()
         {
@@ -56,7 +59,7 @@ namespace DataExtractionEngine.Windows
             double avgGenerationalFrames = -1;
             double avgTrackingFrames = -1;
             double avgDist = -1;
-            TrackingInstance instance; 
+            TrackingInstance instance;
             foreach (string file in this.GenerationFiles)
             {
                 instance = new(file);
@@ -112,7 +115,7 @@ namespace DataExtractionEngine.Windows
             this.textOutput.Lines = lines;
             return;
         }
-    
+
 
         private void ShowNewForm(object sender, EventArgs e)
         {
@@ -136,6 +139,7 @@ namespace DataExtractionEngine.Windows
 
         private void SetupTextDisplay()
         {
+            if (this.TrackerVersion == false) this.viewRawDataToolStripMenuItem.Visible = false;
             this.textOutput.Lines = [];
             /* Lines format 
              * File Name [15] Best Fitness [20]   Average Fitness[20] Worst Fitness [20]  Best Frame [20]  
@@ -301,7 +305,41 @@ namespace DataExtractionEngine.Windows
         private void printPreviewToolStripButton_Click(object sender, EventArgs e)
         {
             GlobalVars.OpenNewWindow = true;
-            this.Dispose(); 
+            this.Dispose();
+        }
+
+        private void viewRawDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string[] lines = getRawLines();
+            TrackingData trackingData = new(lines);
+            trackingData.MdiParent = this.MdiParent;
+            trackingData.Show();
+        }
+
+        private string[] getRawLines()
+        {
+            string[] lines = new string[this.GenerationFiles.Count()]; 
+            if (this.TrackerVersion == false) return lines;
+            int count = 1;
+            lines[0] = "#".PadRight(5) + "GA Type".PadRight(15) + "Genetic Frames".PadRight(17) + "Distance".PadRight(20);
+            TrackingInstance instance;
+            foreach (string file in this.GenerationFiles)
+            {
+                instance = new(file);
+                string fileName = Path.GetFileName(this.GenerationFiles.First());
+                fileName = fileName[..^4];
+                fileName = fileName[(fileName.LastIndexOf('.') + 1)..];
+                try { 
+                lines[count] = count.ToString().PadRight(5) + fileName.PadRight(15) 
+                    + instance.GenerationalFrames.ToString().PadRight(17) + instance.Distance.Length().ToString().PadRight(20);
+                count++;
+                    }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
+            }
+            return lines; 
         }
     }
 }
